@@ -1,9 +1,9 @@
 function addItems(item) {
   if(item == 'edu'){
-    var file = "cv-part-education.html";
+    var file = "parts/cv-part-education.html";
     var parentElement = document.getElementById('education-container');
   } else {
-    var file = "cv-part-language.html";
+    var file = "parts/cv-part-language.html";
     var parentElement = document.getElementById('language-container');
   }
 

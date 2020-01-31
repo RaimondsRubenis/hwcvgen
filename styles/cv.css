@@ -1,0 +1,72 @@
+body {
+  padding: 25px;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+span {
+  display: block;
+}
+
+hr {
+  border: 3px solid lightgrey;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  text-align: left;
+  background-color: lightgrey;
+  font-weight: lighter;
+}
+
+.download-button {
+  background-color: green;
+  text-decoration: none;
+  float: right;
+  color: white;
+  padding: 10px;
+}
+
+.logo {
+  width: 200px;
+  height: 150px;
+  margin: -40px auto;
+}
+
+.main-title {
+  margin-top: 0;
+}
+
+.cv-picture {
+  height: 200px;
+  padding-left: 20%;
+}
+
+.base-table td:not(:first-child) {
+  width: 20%;
+}
+
+.border-table, .border-table tr, .border-table td {
+  border: 1px solid lightgrey;
+  border-collapse: collapse;
+}
+
+.section-title {
+  margin-top: 20px;
+}
+
+.base-table {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.table-names {
+  text-align: right;
+  width: 2%;
+}
